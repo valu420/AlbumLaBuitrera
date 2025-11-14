@@ -1,0 +1,179 @@
+/* --------------------------
+   ESTILOS GENERALES
+--------------------------- */
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  background-color: #f7f7f7;
+  color: #222;
+}
+
+/* Quita decoraciones de los links */
+a {
+  text-decoration: none;
+}
+
+/* --------------------------
+   CONTENEDOR PRINCIPAL
+--------------------------- */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Texto */
+.home-text h1 {
+  font-size: 42px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  color: #1f3d2e;
+}
+
+.home-text p {
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+/* Botón */
+.home-button {
+  background: #1a7c3e;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 12px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.home-button:hover {
+  background: #14632f;
+  transform: scale(1.03);
+}
+
+/* Imagen */
+.home-image {
+  width: 420px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* --------------------------
+    RESPONSIVE
+--------------------------- */
+@media (max-width: 950px) {
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .home-image {
+    width: 80%;
+    margin-top: 30px;
+  }
+}
+/* Contenedor general del álbum */
+.album-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título */
+.album-title {
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #1f3d2e;
+}
+
+/* Caja del libro */
+.book-wrapper {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  background: #fafafa;
+  border-radius: 14px;
+}
+
+/* Página */
+.page {
+  padding: 0;
+  margin: 0;
+  background: white;
+  border: 1px solid #ddd;   /* borde tipo página real */
+  border-radius: 4px;
+}
+
+/* Imagen horizontal */
+.page-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* adapta la imagen al formato horizontal */
+  border-radius: 4px;
+}
+
+/* Portada final */
+.cover-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a7c3e;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* Portada */
+.cover-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a7c3e;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Página blanca */
+.page {
+  background: white;
+  padding: 0;
+  margin: 0;
+}
+
+/* Tarjetas de colecciones */
+.collections-grid {
+  width: 100%;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.collection-card {
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  padding: 15px;
+  text-align: center;
+  transition: .25s;
+  color: black;
+}
+
+.collection-card:hover {
+  transform: scale(1.03);
+}
+
+.collection-cover {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
