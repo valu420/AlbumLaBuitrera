@@ -14,6 +14,7 @@ export default function Album() {
         "/album/Taller0/Imagen1-Taller0.jpeg",
         "/album/Taller0/Imagen2-Taller0.jpeg",
         "/album/Taller0/Imagen3-Taller0.jpeg",
+        "/album/Taller0/Imagen4-Taller0.jpeg",
         "/album/Taller0/Imagen5-Taller0.jpeg",
         "/album/Taller0/Imagen6-Taller0.jpeg",
         "/album/Taller0/Imagen7-Taller0.jpeg",
