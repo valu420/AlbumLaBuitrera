@@ -4,8 +4,28 @@ export default function Collections() {
   const albums = [
     {
       id: "taller0",
-      titulo: "Taller 0",
+      titulo: "Reunion de Socialización 7 de Noviembre",
       portada: "/album/Taller0/portada.jpeg"
+    },
+    {
+      id: "taller1",
+      titulo: "Taller de Conceptualización 1 (Componente selección de criterios) - 18 de Noviembre",
+      portada: "/album/Taller1/portada1.jpeg"
+    },
+    {
+      id: "taller2",
+      titulo: "Taller de Conceptualización 2 (Componente Residuos solidos) - 20 de Noviembre",
+      portada: "/album/Taller2/portada2.jpeg"
+    },
+     {
+      id: "taller3",
+      titulo: "Taller Tecnologico - 22 de Noviembre",
+      portada: "/album/Taller3/portada3.jpeg"
+    },
+     {
+      id: "taller4",
+      titulo: "Taller de Conceptualización 3 (Componente aire y cambio climatico) - 24 de Noviembre",
+      portada: "/album/Taller4/portada4.jpeg"
     },
   ];
 
