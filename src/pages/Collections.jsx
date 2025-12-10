@@ -4,29 +4,65 @@ export default function Collections() {
   const albums = [
     {
       id: "taller0",
-      titulo: "Reunion de Socialización 7 de Noviembre",
+      titulo: "Reunión de Socialización - 7 de Noviembre de 2025",
       portada: "/album/Taller0/portada.jpeg"
     },
     {
       id: "taller1",
-      titulo: "Taller de Conceptualización 1 (Componente selección de criterios) - 18 de Noviembre",
+      titulo: "Taller de Conceptualización 1: Selección de Criterios - 18 de Noviembre de 2025",
       portada: "/album/Taller1/portada1.jpeg"
     },
     {
       id: "taller2",
-      titulo: "Taller de Conceptualización 2 (Componente Residuos solidos) - 20 de Noviembre",
+      titulo: "Taller de Conceptualización 2: Residuos Sólidos - 20 de Noviembre de 2025",
       portada: "/album/Taller2/portada2.jpeg"
     },
      {
       id: "taller3",
-      titulo: "Taller Tecnologico - 22 de Noviembre",
+      titulo: "Taller Escenario Tecnologico - 22 de Noviembre de 2025",
       portada: "/album/Taller3/portada3.jpeg"
     },
      {
       id: "taller4",
-      titulo: "Taller de Conceptualización 3 (Componente aire y cambio climatico) - 24 de Noviembre",
+      titulo: "Taller de Conceptualización 3: Aire y Cambio Climático - 24 de Noviembre de 2025",
       portada: "/album/Taller4/portada4.jpeg"
     },
+    {
+      id: "taller5",
+      titulo: "Taller de Conceptualización 4: Cultura Ambiental - 27 de Noviembre de 2025",
+      portada: "/album/Taller5/portada5.jpeg"
+    },
+
+    {
+      id: "taller6",
+      titulo: "Taller de Conceptualización 5: Recurso Hídrico - 29 de Noviembre de 2025",
+      portada: "/album/Taller6/portada6.jpeg"
+    },
+
+     {
+      id: "taller7",
+      titulo: "Taller de Conceptualización 6: Planificación y Ordenamiento Territorial - 29 de Noviembre de 2025",
+      portada: "/album/Taller7/portada7.jpeg"
+    },
+
+     {
+      id: "taller8",
+      titulo: "Taller de Conceptualización 7: Bioeconomía - 02 de Diciembre de 2025",
+      portada: "/album/Taller8/portada8.jpeg"
+    },
+
+     {
+      id: "taller9",
+      titulo: "Taller de Conceptualización 8: Biodiversidad - 04 de Diciembre de 2025",
+      portada: "/album/Taller9/portada9.jpeg"
+    },
+
+    {
+      id: "taller10",
+      titulo: "Taller de Conceptualización 9: Gobernanza y Justicia Ambiental - 06 de Diciembre de 2025",
+      portada: "/album/Taller10/portada10.jpeg"
+    },
+     
   ];
 
   return (
