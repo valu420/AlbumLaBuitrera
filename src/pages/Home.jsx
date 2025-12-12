@@ -8,7 +8,7 @@ export default function Home() {
       <nav className="navbar">
 
         <div className="navbar-left">
-          <h2>Observatorio Ambiental</h2>
+          <h2>Observatorio Ambiental La Buitrera</h2>
         </div>
 
         <ul className="navbar-links">
@@ -24,10 +24,10 @@ export default function Home() {
       <div className="home-container">
 
         <div className="home-text">
-          <h1>Observatorio ambiental de la Buitrera</h1>
+          <h1>Observatorio ambiental La Buitrera (OAB) </h1>
 
           <p>
-            Corregimiento la Buitrera, Cali, Colombia
+            Corregimiento La Buitrera, Cali, Colombia
           </p>
 
           <Link to="/colecciones">
