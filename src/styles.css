@@ -139,7 +139,7 @@ a {
 /* Caja del libro */
 .book-wrapper {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-  padding: 20px;
+  padding: 10px;
   background: #fafafa;
   border-radius: 14px;
 }
@@ -153,12 +153,36 @@ a {
   border-radius: 4px;
 }
 
+/* Center images inside page and ensure they don't overflow */
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
 /* Imagen horizontal */
 .page-img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  border-radius: 4px;
+  background: #fafafa; /* ligero fondo para ver el espacio cuando es portrait */
+  object-fit: contain; /* por defecto mostrará la imagen completa sin recortar */
+}
+
+/* Ajustes por orientación: */
+.page-img.landscape {
   width: 100%;
   height: 100%;
-  object-fit: cover;   /* adapta la imagen al formato horizontal */
-  border-radius: 4px;
+  object-fit: cover; /* si es apaisada, ocupa todo el ancho y recorta si hace falta */
+}
+
+.page-img.portrait {
+  width: auto;
+  height: 100%;
+  object-fit: contain; /* si es vertical, ocupa la altura disponible respetando aspecto */
 }
 
 /* Portada final */
@@ -200,9 +224,9 @@ a {
 
 .collection-card {
   background: white;
-  border-radius: 14px;
+  border-radius: 10px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.12);
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   transition: .25s;
   color: black;
@@ -214,9 +238,9 @@ a {
 
 .collection-cover {
   width: 100%;
-  height: 220px;
+  height: 310px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-bottom: 10px;
 }
 
