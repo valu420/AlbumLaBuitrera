@@ -36,7 +36,7 @@ export default function Home() {
         </div>
 
         <img
-          src="/buitrera.png"
+          src="/image.png"
           className="home-image"
           alt="Mapa del corregimiento"
         />
