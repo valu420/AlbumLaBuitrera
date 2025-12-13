@@ -14,7 +14,7 @@ export default function Home() {
         <ul className="navbar-links">
           <li><Link to="/">Inicio</Link></li>
           <li><Link to="/colecciones">Colecciones</Link></li>
-          <li><Link to="/boletines">Boletines</Link></li>
+          <li><Link to="/boletines"></Link></li>
         </ul>
 
       </nav>
@@ -24,7 +24,7 @@ export default function Home() {
       <div className="home-container">
 
         <div className="home-text">
-          <h1>Observatorio ambiental La Buitrera (OAB) </h1>
+          <h1>Observatorio Ambiental La Buitrera (OAB) </h1>
 
           <p>
             Corregimiento La Buitrera, Cali, Colombia

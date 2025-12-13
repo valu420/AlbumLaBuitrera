@@ -78,13 +78,13 @@ export default function Collections() {
       <nav className="navbar">
 
         <div className="navbar-left">
-          <h2>Observatorio Ambiental</h2>
+          <h2>Observatorio Ambiental La Buitrera</h2>
         </div>
 
         <ul className="navbar-links">
           <li><Link to="/">Inicio</Link></li>
           <li><Link to="/colecciones">Colecciones</Link></li>
-          <li><Link to="/boletines">Boletines</Link></li>
+          <li><Link to="/boletines"></Link></li>
         </ul>
 
       </nav>
